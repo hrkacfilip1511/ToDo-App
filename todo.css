@@ -1,0 +1,64 @@
+body {
+  background-image: url("todo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+}
+.toggle {
+  text-decoration: line-through;
+  color: red;
+}
+#todo {
+  font-size: 17px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 4px gray;
+}
+#add {
+  background: crimson;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 50px;
+  width: 70px;
+  color: white;
+}
+#add:hover {
+  background: chocolate;
+}
+ul {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 200px;
+  height: 500px;
+  border: 1px solid yellowgreen;
+  box-shadow: 4px 5px grey;
+}
+ul p {
+  border-radius: 10px;
+  width: 160px;
+  background: rosybrown;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+}
+ul:hover {
+  background: whitesmoke;
+}
+ul li {
+  margin-left: 20px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  width: 60px;
+  border-bottom: 1px solid tomato;
+  list-style: none;
+}
